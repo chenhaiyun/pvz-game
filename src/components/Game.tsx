@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useRef, useState } from 'react';
-import { GameState, Plant, PlantType, Projectile, Zombie } from '@/types/game';
+import { GameState, PlantType } from '@/types/game';
 
 export default function Game() {
     const canvasRef = useRef<HTMLCanvasElement>(null);
